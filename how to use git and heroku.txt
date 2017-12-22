@@ -1,0 +1,22 @@
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+ssh-keygen -t rsa   >> generate ssh key
+
+
+========= For Git =======
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/username on git/project name.git
+git remote -v
+git push -u origin master
+
+
+========= For Heroku =======
+git init
+git add .
+git commit -m "my first commit"
+heroku create
+git remote -v
+heroku git:remote -a  ชื่อ app ใน Heroku
+git push heroku master
